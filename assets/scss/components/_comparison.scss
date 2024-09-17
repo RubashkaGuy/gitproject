@@ -1,0 +1,36 @@
+.file {
+    display: grid;
+    background-color: rgb(240, 240, 240);
+    &__title {
+        text-align: center;
+        font-size: 50px;
+    }
+    .comp {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        &__item {
+            &-image{ 
+                width: 70px;
+                height: 70px;
+                opacity: 40%;
+            }
+            &-title {
+                font-size: 30px;
+            }
+            &-subtitle {
+                font-size: 20px;
+            }
+            background-color: rgb(209, 209, 209);
+            border-radius: 20px;
+            padding: 20px;
+            width: 800px;
+            height: 300px;
+            &:hover {
+                background-color: rgb(167, 167, 167);
+                transition: 0.1s ease-in-out;
+                cursor: pointer;
+            }
+        }
+    }
+}

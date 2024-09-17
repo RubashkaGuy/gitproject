@@ -127,4 +127,41 @@
 }
 .hero__text-subtitle {
   font-size: 35px;
+}
+
+.file {
+  display: grid;
+  background-color: rgb(240, 240, 240);
+}
+.file__title {
+  text-align: center;
+  font-size: 50px;
+}
+.file .comp {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.file .comp__item {
+  background-color: rgb(209, 209, 209);
+  border-radius: 20px;
+  padding: 20px;
+  width: 800px;
+  height: 300px;
+}
+.file .comp__item-image {
+  width: 70px;
+  height: 70px;
+  opacity: 40%;
+}
+.file .comp__item-title {
+  font-size: 30px;
+}
+.file .comp__item-subtitle {
+  font-size: 20px;
+}
+.file .comp__item:hover {
+  background-color: rgb(167, 167, 167);
+  transition: 0.1s ease-in-out;
+  cursor: pointer;
 }/*# sourceMappingURL=main-style.min.css.map */
