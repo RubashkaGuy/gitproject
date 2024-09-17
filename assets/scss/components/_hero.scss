@@ -1,0 +1,25 @@
+.hero {
+    height: 400px;
+    display: grid;
+    background-color: rgb(238, 238, 238);
+    &__image {
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        left: 50px;
+        margin-top: 25px;
+    }
+    &__text {
+        margin-right: 50px;
+        text-align: right;
+        &-title {
+            font-size: 50px;
+        }
+        &-subtitle {
+
+            font-size: 35px;
+        }
+
+    }
+
+}

@@ -100,8 +100,31 @@
 }
 .general__text-subtitle {
   font-size: 35px;
-  width: 1000px;
+  width: 50%;
 }
 .general__subtitle {
   font-size: 30px;
+}
+
+.hero {
+  height: 400px;
+  display: grid;
+  background-color: rgb(238, 238, 238);
+}
+.hero__image {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  left: 50px;
+  margin-top: 25px;
+}
+.hero__text {
+  margin-right: 50px;
+  text-align: right;
+}
+.hero__text-title {
+  font-size: 50px;
+}
+.hero__text-subtitle {
+  font-size: 35px;
 }/*# sourceMappingURL=main-style.min.css.map */
