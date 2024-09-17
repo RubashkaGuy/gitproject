@@ -84,4 +84,24 @@
 .header__container .menu__navbar .item__button:hover {
   color: grey;
   transition: ease-in-out 0.1s;
+}
+
+.general {
+  background: url(/assets/img/bg/coding.png);
+  display: grid;
+  height: 600px;
+  color: white;
+}
+.general__text {
+  padding-left: 50px;
+}
+.general__text-title {
+  font-size: 50px;
+}
+.general__text-subtitle {
+  font-size: 35px;
+  width: 1000px;
+}
+.general__subtitle {
+  font-size: 30px;
 }/*# sourceMappingURL=main-style.min.css.map */

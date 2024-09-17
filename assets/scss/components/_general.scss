@@ -1,0 +1,22 @@
+.general {
+    background: url(/assets/img/bg/coding.png);
+    display: grid;
+    height: 600px;
+    color: white;
+    
+    &__text {
+        padding-left: 50px;
+        
+        &-title {
+            font-size: 50px;
+        }
+        &-subtitle {
+            font-size: 35px;
+            width: 1000px;
+        }
+    }
+    &__subtitle {
+        font-size: 30px;
+    }
+
+}
