@@ -1,1 +1,29 @@
 // header style
+.header__container {
+    background-color: rgb(238, 238, 238);
+    .menu {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        padding-top: 20px;
+        height: 90px;
+        border-bottom: solid 2px rgb(132, 128, 128);
+        &__icon {
+            height: 45px;
+            width: 45px;
+            align-items: center;
+        }
+        &__navbar {
+            gap: 30px;
+            display: flex;
+            .item {
+                &__button {
+                    &:hover {
+                        color: grey;
+                        transition: ease-in-out 0.1s;
+                }
+                }
+            }
+        }
+    }
+}

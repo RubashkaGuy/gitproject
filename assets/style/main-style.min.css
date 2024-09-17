@@ -40,8 +40,8 @@
 }
 .application {
   width: 100%;
-  background-color: var(--color-black);
-  color: var(--color-white);
+  background-color: white;
+  color: var(--color-black);
   font-family: var(--font-family);
   font-weight: 400;
 }
@@ -55,8 +55,33 @@
   margin: 0 auto;
   width: 100%;
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .container {
     background-color: red;
   }
+}
+
+.header__container {
+  background-color: rgb(238, 238, 238);
+}
+.header__container .menu {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 20px;
+  height: 90px;
+  border-bottom: solid 2px rgb(132, 128, 128);
+}
+.header__container .menu__icon {
+  height: 45px;
+  width: 45px;
+  align-items: center;
+}
+.header__container .menu__navbar {
+  gap: 30px;
+  display: flex;
+}
+.header__container .menu__navbar .item__button:hover {
+  color: grey;
+  transition: ease-in-out 0.1s;
 }/*# sourceMappingURL=main-style.min.css.map */
