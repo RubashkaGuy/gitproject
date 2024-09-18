@@ -196,4 +196,29 @@
   cursor: pointer;
   color: grey;
   transition: ease-in-out 0.09s;
+}
+
+.glab {
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  justify-content: space-between;
+}
+.glab__text {
+  margin-left: 40px;
+}
+.glab__text-subtitle {
+  text-align: left;
+  font-size: 35px;
+  width: 1000px;
+}
+.glab__text-title {
+  text-align: left;
+  font-size: 50px;
+}
+.glab__image {
+  margin-right: 40px;
+}
+.glab__image-content {
+  width: 300px;
+  height: 300px;
 }/*# sourceMappingURL=main-style.min.css.map */
