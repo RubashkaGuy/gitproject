@@ -1,0 +1,35 @@
+.hist {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    &__photo {
+        margin-right: 40px;
+        filter: drop-shadow(0 0 0.75rem black);
+        margin-top: 250px;
+        width: 50%;
+        height: 50%;
+        border-radius: 40px;
+    }
+    &__title {
+        font-size: 50px;
+        text-align: center;
+    }
+    &__inter {
+        margin-left: 50px;
+        &-title {
+            font-size: 25px;
+        }
+        &-photo {
+
+        }
+        .chris {
+            &__question {
+                font-size: 20px;
+            }
+            &__answer {
+                width: 700px;
+                font-size: 19px;
+            }
+        }
+    }
+}
