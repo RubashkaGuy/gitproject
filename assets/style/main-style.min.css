@@ -277,4 +277,13 @@
 .hist__inter .chris__answer {
   width: 700px;
   font-size: 19px;
+}
+
+.footer {
+  display: grid;
+  background-color: rgb(238, 238, 238);
+}
+.footer__copyright {
+  color: black;
+  text-align: center;
 }/*# sourceMappingURL=main-style.min.css.map */

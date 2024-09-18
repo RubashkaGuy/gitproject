@@ -1,0 +1,9 @@
+.footer {
+    display: grid;
+    background-color: rgb(238, 238, 238);
+    &__copyright {
+        color: black;
+        text-align: center;
+
+    }
+}
