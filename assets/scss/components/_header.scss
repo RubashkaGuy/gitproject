@@ -2,6 +2,9 @@
 .header__container {
     background-color: rgb(238, 238, 238);
     .menu {
+        @include lg {
+            font-size: 15px;
+        }
         text-align: center;
         justify-content: center;
         display: flex;

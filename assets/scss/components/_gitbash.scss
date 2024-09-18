@@ -1,6 +1,9 @@
 .gitbash {
     display: flex;
     gap: 90px;
+    @include xxl {
+        display: grid;
+    }
     &__text {
         margin-left: 40px;
         &-title {
@@ -10,17 +13,27 @@
         &-subtitle {
             font-size: 35px;
             width: 800px;
+            @include lg {
+                width: 600px;
+            }
         }
         
     }
     &__image {
+        @include lg {
+            display: flex;
+        }
         align-items: center;
         justify-content: center;
         &-icon {
+            @include lg {
+                width: 300px;
+            }
             padding: 20px;
             margin: 40px;
             width: 500px;
             align-items: center;
+
         }
     }
 }

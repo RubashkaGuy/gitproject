@@ -1,5 +1,8 @@
 .hist {
     display: flex;
+    @include xxl {
+        display: grid;
+    }
     justify-content: space-between;
     margin-top: 50px;
     &__photo {
@@ -8,6 +11,12 @@
         margin-top: 250px;
         width: 50%;
         height: 50%;
+        @include xxl {
+            width: 80%;
+            height: 80%;
+            margin-top: 0;
+            margin-left: 100px;
+        }
         border-radius: 40px;
     }
     &__title {

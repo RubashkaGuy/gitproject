@@ -4,11 +4,22 @@
     &__title {
         text-align: center;
         font-size: 50px;
+        @include sm {
+            font-size: 20px;
+        }
     }
     .comp {
+        @include xxl {
+            display: grid;
+        }
         display: flex;
         justify-content: center;
         gap: 50px;
+        @include sm {
+            gap: 30px;
+            margin: 0;
+            padding: 0;
+        }
         &__item {
             &-image{ 
                 width: 70px;
@@ -25,6 +36,14 @@
             border-radius: 20px;
             padding: 20px;
             width: 800px;
+            @include lg {
+                width: 600px;
+            }
+            @include sm {
+                width: 350px;
+                padding: 10px;
+                margin: 0;
+            }
             height: 300px;
             &:hover {
                 background-color: rgb(167, 167, 167);

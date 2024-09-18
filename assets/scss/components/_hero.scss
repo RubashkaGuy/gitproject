@@ -3,6 +3,9 @@
     display: grid;
     background-color: rgb(238, 238, 238);
     &__image {
+        @include xxl {
+            display: none;
+        }
         position: absolute;
         width: 350px;
         height: 350px;

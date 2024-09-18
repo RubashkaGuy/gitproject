@@ -72,6 +72,11 @@
   height: 90px;
   border-bottom: solid 2px rgb(132, 128, 128);
 }
+@media (max-width: 768px) {
+  .header__container .menu {
+    font-size: 15px;
+  }
+}
 .header__container .menu__icon {
   height: 45px;
   width: 45px;
@@ -102,6 +107,11 @@
   font-size: 35px;
   width: 50%;
 }
+@media (max-width: 768px) {
+  .general__text-subtitle {
+    font-size: 25px;
+  }
+}
 .general__subtitle {
   font-size: 30px;
 }
@@ -117,6 +127,11 @@
   height: 350px;
   left: 50px;
   margin-top: 25px;
+}
+@media (max-width: 1024px) {
+  .hero__image {
+    display: none;
+  }
 }
 .hero__text {
   margin-right: 50px;
@@ -137,10 +152,27 @@
   text-align: center;
   font-size: 50px;
 }
+@media (max-width: 420px) {
+  .file__title {
+    font-size: 20px;
+  }
+}
 .file .comp {
   display: flex;
   justify-content: center;
   gap: 50px;
+}
+@media (max-width: 1024px) {
+  .file .comp {
+    display: grid;
+  }
+}
+@media (max-width: 420px) {
+  .file .comp {
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
 }
 .file .comp__item {
   background-color: rgb(209, 209, 209);
@@ -159,6 +191,18 @@
 }
 .file .comp__item-subtitle {
   font-size: 20px;
+}
+@media (max-width: 768px) {
+  .file .comp__item {
+    width: 600px;
+  }
+}
+@media (max-width: 420px) {
+  .file .comp__item {
+    width: 350px;
+    padding: 10px;
+    margin: 0;
+  }
 }
 .file .comp__item:hover {
   background-color: rgb(167, 167, 167);
@@ -203,6 +247,16 @@
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 1024px) {
+  .glab {
+    display: grid;
+  }
+}
+@media (max-width: 768px) {
+  .glab {
+    display: flex;
+  }
+}
 .glab__text {
   margin-left: 40px;
 }
@@ -210,6 +264,11 @@
   text-align: left;
   font-size: 35px;
   width: 1000px;
+}
+@media (max-width: 768px) {
+  .glab__text-subtitle {
+    width: 420px;
+  }
 }
 .glab__text-title {
   text-align: left;
@@ -227,6 +286,11 @@
   display: flex;
   gap: 90px;
 }
+@media (max-width: 1024px) {
+  .gitbash {
+    display: grid;
+  }
+}
 .gitbash__text {
   margin-left: 40px;
 }
@@ -237,9 +301,19 @@
   font-size: 35px;
   width: 800px;
 }
+@media (max-width: 768px) {
+  .gitbash__text-subtitle {
+    width: 600px;
+  }
+}
 .gitbash__image {
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 768px) {
+  .gitbash__image {
+    display: flex;
+  }
 }
 .gitbash__image-icon {
   padding: 20px;
@@ -247,11 +321,21 @@
   width: 500px;
   align-items: center;
 }
+@media (max-width: 768px) {
+  .gitbash__image-icon {
+    width: 300px;
+  }
+}
 
 .hist {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
+}
+@media (max-width: 1024px) {
+  .hist {
+    display: grid;
+  }
 }
 .hist__photo {
   margin-right: 40px;
@@ -260,6 +344,14 @@
   width: 50%;
   height: 50%;
   border-radius: 40px;
+}
+@media (max-width: 1024px) {
+  .hist__photo {
+    width: 80%;
+    height: 80%;
+    margin-top: 0;
+    margin-left: 100px;
+  }
 }
 .hist__title {
   font-size: 50px;

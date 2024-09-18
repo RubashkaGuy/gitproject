@@ -2,13 +2,22 @@
     background-color: rgb(238, 238, 238);
     display: flex;
     justify-content: space-between;
-
+    @include xxl {
+        display: grid;
+    }
+    @include lg {
+        display: flex;
+    }
     &__text {
         margin-left: 40px;
         &-subtitle {
             text-align: left;
             font-size: 35px;
             width: 1000px;
+            @include lg {
+                width: 420px;
+                
+            }
 
         }
 

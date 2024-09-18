@@ -3,7 +3,6 @@
     display: grid;
     height: 600px;
     color: white;
-    
     &__text {
         padding-left: 50px;
         
@@ -13,6 +12,9 @@
         &-subtitle {
             font-size: 35px;
             width: 50%;
+            @include lg {
+                font-size: 25px;
+            }
         }
     }
     &__subtitle {
