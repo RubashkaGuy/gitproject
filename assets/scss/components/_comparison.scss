@@ -28,9 +28,15 @@
             }
             &-title {
                 font-size: 30px;
+                @include sm {
+                    font-size: 20px;
+                }
             }
             &-subtitle {
                 font-size: 20px;
+                @include sm {
+                    font-size: 15px;
+                }
             }
             background-color: rgb(209, 209, 209);
             border-radius: 20px;
@@ -40,7 +46,7 @@
                 width: 600px;
             }
             @include sm {
-                width: 350px;
+                width: 300px;
                 padding: 10px;
                 margin: 0;
             }

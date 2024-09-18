@@ -1,5 +1,8 @@
 .hero {
     height: 400px;
+    @include sm {
+        height: auto;
+    }
     display: grid;
     background-color: rgb(238, 238, 238);
     &__image {
@@ -14,12 +17,20 @@
     }
     &__text {
         margin-right: 50px;
+        @include sm {
+            margin-right: 60px;
+        }
         text-align: right;
         &-title {
+            @include sm {
+                font-size: 40px;
+            }
             font-size: 50px;
         }
         &-subtitle {
-
+            @include sm {
+                font-size: 20px;
+            }
             font-size: 35px;
         }
 

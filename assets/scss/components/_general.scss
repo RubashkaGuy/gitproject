@@ -2,18 +2,28 @@
     background: url(/assets/img/bg/coding.png);
     display: grid;
     height: 600px;
+    @include sm {
+        height: 300px;
+    }
     color: white;
     &__text {
         padding-left: 50px;
         
         &-title {
             font-size: 50px;
+            @include sm {
+                font-size: 30px;
+            }
         }
         &-subtitle {
             font-size: 35px;
             width: 50%;
             @include lg {
                 font-size: 25px;
+            }
+            @include sm {
+                font-size: 20px;
+                width: 70%;
             }
         }
     }

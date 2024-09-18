@@ -2,9 +2,15 @@
     background-color: white;
     display: grid;
     margin-left: 40px;
+    @include sm {
+        margin: 0;
+    }
     &__title {
         text-align: center;
         font-size: 50px;
+        @include sm {
+            font-size: 25px;
+        }
     }
     &__block {
         align-items: center;
@@ -16,11 +22,18 @@
         width: 300px;
         height: 300px;
         border-radius: 20px;
+        @include sm {
+            display: none;
+        }
     }
     .item {
         
         &__text {
-            
+            @include sm {
+                text-align: center;
+                padding: 20px;
+                margin-left: 80px;
+            }
             font-size: 30px;
             padding: 20px;
             font-weight: 700;

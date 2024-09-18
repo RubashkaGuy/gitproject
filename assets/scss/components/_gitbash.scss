@@ -16,12 +16,19 @@
             @include lg {
                 width: 600px;
             }
+            @include sm {
+                font-size: 20px;
+                width: 300px;
+            }
         }
         
     }
     &__image {
         @include lg {
             display: flex;
+        }
+        @include sm {
+            display: none;
         }
         align-items: center;
         justify-content: center;
